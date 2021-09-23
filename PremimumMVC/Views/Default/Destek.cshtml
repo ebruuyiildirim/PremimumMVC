@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewBag.Title = "Destek";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="support" class="support">
+    <div class="container" id="support">
+
+        <br> <br> <br> <br> <br> <br>
+
+
+        <div class="section-title text-center col" style="text-align: center;">
+            <h2 style="color: dimgray; margin-top: 15px; text-align: center;">DESTEK</h2>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-lg-4" data-aos="fade-right">
+                <div class="section-title text-center col">
+
+                    <div class="email">
+
+                        <h4>Email:</h4>
+                        <a href="mailto:destek@bilsoft.com">
+                            <p>destek@bilsoft.com</p>
+                        </a>
+                    </div>
+
+                    <div class="phone">
+
+                        <h4>Telefon:</h4>
+                        <a href="tel:+908508112930">
+                            <p>0850 811 29 30</p>
+                        </a>
+                    </div>
+
+                    <div class="whatsapp">
+
+                        <h4>Whatsapp:</h4>
+                        <a href="tel:+905510131336">
+                            <p>0551 013 13 36</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+             <div class="col-lg-8" data-aos="fade-left" id="support-form">
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="form2">
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <input type="text" name="Telefon" class="form-control" id="Telefon"
+                           placeholder="Telefon numaranızı giriniz" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <input type="email" class="form-control" name="Mail" id="Mail" placeholder="E-Mailinizi giriniz"
+                           required>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="Konu" id="Konu" placeholder="Konu" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="Mesaj" id="Mesaj" rows="5" placeholder="Mesaj" required></textarea>
+            </div>
+
+            <div class="text-center"><button type="button" class="btn" id="support-button">Mail Gönder</button></div>
+        </form>
+
+    </div>
+
+
+
+            <div class="container">
+                <br><br> <br><br>
+                <div class="row">
+                    <div class="section-title text-center col" style="text-align: center;">
+                        <h3 style="color:dimgray; text-align: center;">Destek Sistemi</h3>
+                    </div>
+
+                    <div class="container" id="support-system">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <table class="table col-md-11" id="support-table" style="align-content: center;">
+
+                                <tbody>
+
+                                    <tr>
+                                        <th>Standart Destek</th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hafta İçi:</th>
+                                        <td>Her gün 09:00 - 17:30</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hafta Sonu:</th>
+                                        <td>Cumartesi 09:00 - 16:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        <td>Pazar - Sadece mail desteği</td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>VIP Destek</th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hafta İçi:</th>
+                                        <td>Her gün 09:00 - 23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hafta Sonu:</th>
+                                        <td>10:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>E-Mail Desteği:</th>
+                                        <td>7/24</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

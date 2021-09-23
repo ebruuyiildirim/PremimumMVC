@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "İletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="padd-section" id="contact">
+    <br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center col" style="text-align: center;">
+                <h2 style="color:dimgray; text-align: center;">İLETİŞİM</h2>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class=" col-md-8">
+                        <table class="table" id="iletisim-table" style="align-content: center;">
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Telefon Numarası:</th>
+                                    <td>0212 912 24 26 </td>
+                                </tr>
+                                <tr>
+                                    <th>E-Mail:</th>
+                                    <td>bilgi@bilsoft.com</td>
+                                </tr>
+
+                                <tr>
+                                    <th>E-Mail:</th>
+                                    <td>bilgi@bilsoft.com</td>
+                                </tr>
+                                <tr>
+                                    <th>Faks:</th>
+                                    <td>0212 912 24 27</td>
+                                </tr>
+                                <tr>
+                                    <th>Adres:</th>
+                                    <td>Düzce Üniversitesi Teknopark Orhangazi Mah.<br>Teknopark Cad. No:1 Kat:2 Merkez/Düzce</td>
+                                </tr>
+                                <tr>
+                                    <th>Sosyal Medya:</th>
+                                    <td>
+                                        <div class="social-links">
+                                            <a href="https://twitter.com/bilsoftyzlm" class="twitter"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.facebook.com/bilsoftyazilim/" class="facebook"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.instagram.com/bilsoftyazilim/" class="instagram"><i class="fa fa-instagram"></i></a>
+                                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                            <a href="https://www.linkedin.com/company/bilsoftyazilim/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://www.youtube.com/channel/UCswWwGeNRqRMYIVLF8YzqsQ/videos" class="linkedin"><i class="fa fa-whatsapp"></i></a>
+
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <div class="social-links">
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+
+
+            <br>
+            <div class="col-md-2"></div>
+
+            <div class="form col-md-8" style="text-align: center;">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form"
+                      style="align-items: center;">
+                    <div class="form-group" style="text-align: center;">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="İsminiz" data-rule="minlen:3"
+                               data-msg="Please enter at least 4 chars" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email"
+                               data-msg="Please enter a valid email" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu"
+                               data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                  data-msg="Please write something for us" placeholder="Mesaj"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Yükleniyor</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Mesajınız gönderildi. Teşekkürler!</div>
+                    </div>
+                    <div class="text-center"><button class="btn" type="submit">Mesaj Gönder</button></div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <br><br>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.643012076005!2d31.172284!3d40.901256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x332d4e256b968190!2sBilsoft!5e0!3m2!1str!2str!4v1625561764933!5m2!1str!2str"
+                            width="1770" height="250" style="border:0; text-align: center; border-radius: 20px;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
